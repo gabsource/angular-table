@@ -2,7 +2,7 @@ paginationTemplate = "
 <div style='margin: 0px;'>
   <ul class='pagination'>
     <li ng-class='{disabled: getCurrentPage() <= 0}'>
-      <a href='' ng-click='stepPage(-numberOfPages)'>First</a>
+      <a href='' ng-click='stepPage(-numberOfPages)'>Début</a>
     </li>
 
     <li ng-show='showSectioning()' ng-class='{disabled: getCurrentPage() <= 0}'>
@@ -26,7 +26,7 @@ paginationTemplate = "
     </li>
 
     <li ng-class='{disabled: getCurrentPage() >= numberOfPages - 1}'>
-      <a href='' ng-click='stepPage(numberOfPages)'>Last</a>
+      <a href='' ng-click='stepPage(numberOfPages)'>Fin</a>
     </li>
   </ul>
 </div>"
